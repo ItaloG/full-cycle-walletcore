@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/ItaloG/Go-expert/full-cycle-walletcore/internal/entity"
+	"github.com/ItaloG/full-cycle-walletcore/internal/entity"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/suite"
 )

@@ -3,8 +3,8 @@ package createclient
 import (
 	"time"
 
-	"github.com/ItaloG/Go-expert/full-cycle-walletcore/internal/entity"
-	"github.com/ItaloG/Go-expert/full-cycle-walletcore/internal/gateway"
+	"github.com/ItaloG/full-cycle-walletcore/internal/entity"
+	"github.com/ItaloG/full-cycle-walletcore/internal/gateway"
 )
 
 type CreateClientInputDTO struct {

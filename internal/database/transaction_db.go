@@ -3,7 +3,7 @@ package database
 import (
 	"database/sql"
 
-	"github.com/ItaloG/Go-expert/full-cycle-walletcore/internal/entity"
+	"github.com/ItaloG/full-cycle-walletcore/internal/entity"
 )
 
 type TransactionDB struct {

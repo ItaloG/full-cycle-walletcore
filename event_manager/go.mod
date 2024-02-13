@@ -1,12 +1,8 @@
-module github.com/ItaloG/full-cycle-walletcore
+module github.com/ItaloG/go-event-manager
 
 go 1.21.3
 
-require (
-	github.com/google/uuid v1.6.0
-	github.com/mattn/go-sqlite3 v1.14.22
-	github.com/stretchr/testify v1.8.4
-)
+require github.com/stretchr/testify v1.8.4
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect

@@ -3,7 +3,7 @@ package createtransaction
 import (
 	"testing"
 
-	"github.com/ItaloG/Go-expert/full-cycle-walletcore/internal/entity"
+	"github.com/ItaloG/full-cycle-walletcore/internal/entity"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )
