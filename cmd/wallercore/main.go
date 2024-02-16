@@ -7,12 +7,15 @@ import (
 
 	"github.com/ItaloG/full-cycle-walletcore/internal/database"
 	"github.com/ItaloG/full-cycle-walletcore/internal/event"
+	"github.com/ItaloG/full-cycle-walletcore/internal/event/handler"
 	"github.com/ItaloG/full-cycle-walletcore/internal/usecase/create_account"
 	"github.com/ItaloG/full-cycle-walletcore/internal/usecase/create_client"
 	"github.com/ItaloG/full-cycle-walletcore/internal/usecase/create_transaction"
 	"github.com/ItaloG/full-cycle-walletcore/internal/web"
 	"github.com/ItaloG/full-cycle-walletcore/internal/web/webserver"
 	"github.com/ItaloG/full-cycle-walletcore/pkg/events"
+	"github.com/ItaloG/full-cycle-walletcore/pkg/kafka"
+	"github.com/ItaloG/full-cycle-walletcore/pkg/uow"
 	ckafka "github.com/confluentinc/confluent-kafka-go/kafka"
 
 	_ "github.com/go-sql-driver/mysql"
